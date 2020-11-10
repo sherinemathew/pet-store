@@ -11,8 +11,8 @@ The API requirements have been set and can be found at https://petstore.swagger.
 At application startup, 50 fake pets are inserted into BoltDB (key-value store). petId is from 1-50 which can be queried from the microservice.
 
 #### Below is an example
-Sample Request -> curl http://localhost:6004/pet/12
-Sample Response -> {"id":12,"category":{"Id":0,"Name":""},"name":"Pet_11","status":"available"}
+* Sample Request -> curl http://localhost:6004/pet/12
+* Sample Response -> {"id":12,"category":{"Id":0,"Name":""},"name":"Pet_11","status":"available"}
 
 ### Technologies Used
 This project has been developed in Go.
